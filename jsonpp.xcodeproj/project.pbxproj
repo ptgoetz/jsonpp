@@ -29,7 +29,7 @@
 		EA8B1D3D159295AF0010EEC4 /* jsonpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jsonpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8B1D41159295AF0010EEC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EA8B1D44159295AF0010EEC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EA8B1D47159295AF0010EEC4 /* jsonpp-Prefix.pch */ = {isa = PBXFileReference; path = "jsonpp-Prefix.pch"; sourceTree = "<group>"; };
+		EA8B1D47159295AF0010EEC4 /* jsonpp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jsonpp-Prefix.pch"; sourceTree = "<group>"; };
 		EA8B1D48159295AF0010EEC4 /* jsonpp.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = jsonpp.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,7 +168,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 			};
 			name = Debug;
 		};
@@ -188,7 +188,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 			};
 			name = Release;
 		};
