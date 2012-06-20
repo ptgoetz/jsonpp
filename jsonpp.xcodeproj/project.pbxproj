@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA8B1D42159295AF0010EEC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8B1D41159295AF0010EEC4 /* Foundation.framework */; };
+		EA8B1D45159295AF0010EEC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8B1D44159295AF0010EEC4 /* main.m */; };
+		EA8B1D49159295AF0010EEC4 /* jsonpp.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA8B1D48159295AF0010EEC4 /* jsonpp.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA8B1D3B159295AF0010EEC4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				EA8B1D49159295AF0010EEC4 /* jsonpp.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA8B1D3D159295AF0010EEC4 /* jsonpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jsonpp; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8B1D41159295AF0010EEC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA8B1D44159295AF0010EEC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA8B1D47159295AF0010EEC4 /* jsonpp-Prefix.pch */ = {isa = PBXFileReference; path = "jsonpp-Prefix.pch"; sourceTree = "<group>"; };
+		EA8B1D48159295AF0010EEC4 /* jsonpp.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = jsonpp.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA8B1D3A159295AF0010EEC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8B1D42159295AF0010EEC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA8B1D32159295AF0010EEC4 = {
+			isa = PBXGroup;
+			children = (
+				EA8B1D43159295AF0010EEC4 /* jsonpp */,
+				EA8B1D40159295AF0010EEC4 /* Frameworks */,
+				EA8B1D3E159295AF0010EEC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA8B1D3E159295AF0010EEC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA8B1D3D159295AF0010EEC4 /* jsonpp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA8B1D40159295AF0010EEC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA8B1D41159295AF0010EEC4 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA8B1D43159295AF0010EEC4 /* jsonpp */ = {
+			isa = PBXGroup;
+			children = (
+				EA8B1D44159295AF0010EEC4 /* main.m */,
+				EA8B1D48159295AF0010EEC4 /* jsonpp.1 */,
+				EA8B1D46159295AF0010EEC4 /* Supporting Files */,
+			);
+			path = jsonpp;
+			sourceTree = "<group>";
+		};
+		EA8B1D46159295AF0010EEC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA8B1D47159295AF0010EEC4 /* jsonpp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA8B1D3C159295AF0010EEC4 /* jsonpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8B1D4C159295AF0010EEC4 /* Build configuration list for PBXNativeTarget "jsonpp" */;
+			buildPhases = (
+				EA8B1D39159295AF0010EEC4 /* Sources */,
+				EA8B1D3A159295AF0010EEC4 /* Frameworks */,
+				EA8B1D3B159295AF0010EEC4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jsonpp;
+			productName = jsonpp;
+			productReference = EA8B1D3D159295AF0010EEC4 /* jsonpp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA8B1D34159295AF0010EEC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EA8B1D37159295AF0010EEC4 /* Build configuration list for PBXProject "jsonpp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA8B1D32159295AF0010EEC4;
+			productRefGroup = EA8B1D3E159295AF0010EEC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA8B1D3C159295AF0010EEC4 /* jsonpp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA8B1D39159295AF0010EEC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8B1D45159295AF0010EEC4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA8B1D4A159295AF0010EEC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA8B1D4B159295AF0010EEC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EA8B1D4D159295AF0010EEC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jsonpp/jsonpp-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA8B1D4E159295AF0010EEC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jsonpp/jsonpp-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA8B1D37159295AF0010EEC4 /* Build configuration list for PBXProject "jsonpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8B1D4A159295AF0010EEC4 /* Debug */,
+				EA8B1D4B159295AF0010EEC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8B1D4C159295AF0010EEC4 /* Build configuration list for PBXNativeTarget "jsonpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8B1D4D159295AF0010EEC4 /* Debug */,
+				EA8B1D4E159295AF0010EEC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA8B1D34159295AF0010EEC4 /* Project object */;
+}
