@@ -18,13 +18,6 @@ int main(int argc, const char * argv[])
             return 1;
         }
         
-        NSLog(@"Argument count: %i", argc);
-        for (int i = 0; i < argc; i++) {
-            NSLog(@"argv[%i] %s", i, argv[i]);
-            NSString* arg = [[NSString alloc ] initWithCString:argv[i]encoding:NSUTF8StringEncoding];
-            NSLog(@"Current arg: %@", arg);
-        }
-        
         NSData* dataIn = nil;
         NSString* str = nil;
         if(argc == 2){

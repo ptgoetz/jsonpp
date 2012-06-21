@@ -31,6 +31,7 @@
 		EA8B1D44159295AF0010EEC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA8B1D47159295AF0010EEC4 /* jsonpp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jsonpp-Prefix.pch"; sourceTree = "<group>"; };
 		EA8B1D48159295AF0010EEC4 /* jsonpp.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = jsonpp.1; sourceTree = "<group>"; };
+		EA8B1D4F15929AB70010EEC4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +49,7 @@
 		EA8B1D32159295AF0010EEC4 = {
 			isa = PBXGroup;
 			children = (
+				EA8B1D4F15929AB70010EEC4 /* README.md */,
 				EA8B1D43159295AF0010EEC4 /* jsonpp */,
 				EA8B1D40159295AF0010EEC4 /* Frameworks */,
 				EA8B1D3E159295AF0010EEC4 /* Products */,
